@@ -2,74 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
     <title>Anamul's Protfolio</title>
        
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.min.css">
   
 </head>
-<body class="theme">
+<body class="theme container-fluid">
     
   <!-- Header  -->
-    <header>
-      <nav class="navbar navbar-expand-lg container ">
-        <div class="container-fluid ">
-          <a class="navbar-brand text-white" href="#">Home</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#skills">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#projects">Projects</a>
-              <!-- </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li> -->
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#resume">Resume</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#contact">Contact</a>
-              </li>
-            </ul>
-              <h1 style="color: #ffffff;"size>Anamul's Protfolio</h1>
-          </div>
-        </div>
-      </nav>
-    </header>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-image: linear-gradient(to right, rgba(20, 37, 134, 0.822), rgba(0, 0, 0, 0.726));">
+    <div class="container">
+      <a class="nav-link text-white " href="#skills">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto d-flex justify-content-center"> 
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#resume">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <h3 class="text-white headline">Anamul's Protfolio</h3>
+      </div>
+    </div>
+  </nav>
+
+   
 
     <!-- Introduction  -->
 
-<section class="mx-5">   
-   <div class="intro container my-4 mx-5  d-flex m-auto ">
-      <div class="text-white me-5 ">
+<section >   
+   <div class="intro container my-4   d-flex m-auto ">
+      <div class="text-white me-5 my-5">
         <h5>Hello!!</h5>
         <h1>I'm <br> Md. Anamul Haque</h1>
         <p class="w-100 ">I'm a students & currently persuing a under-greduation degree B.Sc in CSE at International Islamic University Chittagong</p>
       </div>
       <div>
-        <img class="prfl-img rounded-circle w-50" src="./image/profile-sakib.jpeg" alt="">
+        <img  src="./image/profile-sakib.jpeg" class="prfl-img rounded-circle w-75 container-fluid mx-5" alt="">
       </div>
     </div>
   </section>
 
+</header>
 
 
 <!-- skills  -->
-<section class="my-5" id="skills">
+<section class="skill-section" id="skills">
 <h1 class="text-center text-white">My Skills</h1>
 
 <div class="card-group container gap-2">
@@ -215,13 +207,13 @@
  </div>
 </section>
 
-<!-- resume  -->
+<!-- About  -->
 
 <section id="resume" class="resume text-white">
   <div class="container">
 
     <div class="section-title">
-      <h2>Resume</h2>
+      <h2>About</h2>
       <p>As a student, my resume highlights my academic achievements, extracurricular activities, and relevant experiences. I have actively engaged in various educational pursuits, honing my skills in critical thinking, research, and teamwork. Additionally, my participation in clubs, organizations, and volunteer work demonstrates a commitment to personal development and making a positive impact in my community. Eager to embrace new opportunities for learning and growth, I am excited to leverage my passion and dedication to excel in future academic and professional endeavors</p>
     </div>
 
@@ -352,8 +344,83 @@
 
 <!-- End Contact Section -->
 
-<!-- footer -->
 
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-white my-5 ">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <img src="./images/logo2.png" alt="">
+          <p class="py-4">
+            Thank you for visiting. A journey showcasing my passion for technology, problem-solving prowess, and commitment to innovation. From software development to coding challenges, I strive to make a positive impact in the digital world. Let's connect and explore opportunities to create groundbreaking solutions together. </p>
+           
+        </div>
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Usefull Link
+          </h6>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">Homes</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">About Us</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">Cases</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">Blog</a>
+          </p> 
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">Contact Us</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact Now
+          </h6>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">Halishahar ,Agrabad</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">+88 01750 000 000
+              +88 01750 000 000</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">anamulsakib@gmail.com</a>
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Subscribe</h6>
+          <p> Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+          <p>
+            <form class="d-flex " role="search">
+              <input class="form-control me-2 banner-search" type="search" placeholder="Email Address" aria-label="Search">
+              <button class="btn primary-button" type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+ </footer>
+<!-- Footer -->
+
+
+<!-- footer -->
+<!-- 
 <div class="footer">
   <div class="footer-left">
       <h2 style="color: rgb(253, 253, 253);">At a Glance</h1>
@@ -373,7 +440,7 @@
       <a href="#">Subscribe</a>
 
   </div>
-</div>
+</div> -->
 <script src="bootstrap.bundle.min.js"></script>
   </body>
 </html>

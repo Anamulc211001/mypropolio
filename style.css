@@ -17,6 +17,10 @@ body {
     background-color: #eee;
 }
 
+.headline{
+  margin-left: 270px;
+}
+
 /* intro  */
 .prfl-img{
   margin-left: 180px;
@@ -118,6 +122,10 @@ body {
 /**
 * card_BODY
 **/
+
+.skill-section{
+  margin-top: 100px;
+}
 
 .card__body {
     position: relative;
@@ -274,6 +282,7 @@ body {
   justify-content: space-around;
   background-color: rgb(19, 6, 6);
   padding: 50px 60px;
+  overflow-x: hidden;
 }
 .footer p{
   width: 40%;
@@ -295,10 +304,6 @@ text-decoration: none;
 padding: 5px 15px;
 border-radius: 5px;
 color: rgb(253, 136, 3);
-}
-
-.javaimage{
-  background-color: red;
 }
 
 .git-btn{
